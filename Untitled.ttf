@@ -1,0 +1,158 @@
+Install Xcode in Apple Store
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+اگه تو نصب home-brew و command-line-tools به مشکل خوردی ابزار developer رو از  Apple Sture دانلود کن و برای نصب home-brew نیاز به فیلتر شکن نداری
+
+brew install node
+brew install watchman
+
+اگه تو نصب به خطا خوردن بنویس
+git -C $(brew --repo homebrew/core) checkout master
+
+//Install Ruby rvm
+brew install ruby
+
+rvm install "ruby-2.7.5" for rn 0.7
+\curl -sSL https://get.rvm.io | bash -s stable
+
+
+ا cocoapods فقط با brew نصب بشه//
+
+حتما ببین command-line-tools تو Xcode   باشه
+ 
+$ bundle install
+$ git add Gemfile Gemfile.lock
+
+
+
+brew install cocoapods
+pod --list
+pod —version
+Go to iOS file && pod install --repo-update for update
+
+brew install --cask cocoapods // تعمیر
+brew link --overwrite cocoapods
+brew link --overwrite --dry-run cocoapods لینک لیست//
+brew unlink cocoapods && brew link cocoapods
+
+ شاید نیاز باشه تو فایل iOS وروژه این رو بزنی m1 \\
+sudo arch -x86_64 gem install ffi
+arch -x86_64 pod install
+
+
+
+
+
+/Users/hamid/.rvm/scripts/rvm // add to PATH
+export PATH=$PATH:/Users/hamid/.rvm/scripts/rvm
+
+
+brew tap homebrew/cask-versions
+brew install --cask zulu11 for install jdk
+
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+
+هsdk هارو از ۳۰ تا ۳۲ همرو علامت بزن و دانلود کن
+
+برای دسترسی به git باید با visual studio synk بکنی چون از طریق zsh با رمز عبور نمیشه و قبول نمیکنه  
+
+با visual studio اگه خواستی با git sync کنی و اکتنشن ها و تنظیماتت sync نشد دوباره روی اکانت تو viscose بزن و روی marge accost extension بزن و بعد پاپاپی که اومد روی marge نزن روی local بزن
+
+
+
+
+Fetch-blob set permission in react-native-fs
+
+React native-go-to-file
+
+
+H1a3M7iD5
+
+MobaXterm برای ارتباط با سرور
+
+brew install git
+
+TL-WN823N
+
+tp-link Archer T3U plus
+
+
+
+rm -rf ~/Library/Caches/CocoaPods
+rm -rf Pods
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+pod deintegrate
+pod setup
+
+
+`rm -rf "${HOME}/Library/Caches/CocoaPods"`  
+
+# delete local Pods/*
+rm -rf "`pwd`/Pods/"
+
+# pod update to fetch latest. After entire cache deletion, it takes lot longer to fetch and rebuild pod cache from scratch. 
+`pod update`
+
+
+pod cache clean --all # will clean all pods
+pod cache clean 'FortifySec' --all # will remove all installed 'FortifySec' pods
+
+pod cache clean --all 
+pod cache clean 'FortifySec' --all 
+rm -rf ~/Library/Caches/CocoaPods
+rm -rf Pods
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+pod deintegrate
+pod setup
+brew uninstall cocoapods
+Canid delete . cocoapods
+Library developer cach
+brew install cocoapods
+اول تو سایت اپل دولوپر ثبت نام کن بعد تو ایکس کده accont بساز 
+
+
+
+echo $http_proxy
+echo $https_proxy
+echo $HTTPS_PROXY
+echo $HTTP_PROXY
+and delete with export http_proxy=
+Or check https and http proxy
+git config --global --unset https.proxy
+git config --global --unset http.proxy
+Or do you have the proxy in the local config?
+git config --unset http.proxy
+git config --unset https.proxy
+
+
+روی فلش کنار عکس پروفایل کلیک کن و روی ستینگ بزن و بعد روی
+Developer setting 
+بزن
+و بعد روی 
+Personal access token
+و بعد هم روی 
+New token
+open ~/.zshrc
+Set export and
+ source ~/.zshrc
+locale
+open ~/.profile
+rvm install 2.1.1
+gem list --local | grep cocoapods
+brew list
+[sudo] gem install cocoapods --pre
+npm install -g ios-deploy
+
+react-native run-ios --device "Max's iPhone"
+
+gem install bundler:2.2.27
+cocoapods/1.11.3
+
+yarn add @notifee/react-native
+
+
+
