@@ -152,7 +152,17 @@ react-native run-ios --device "Max's iPhone"
 gem install bundler:2.2.27
 cocoapods/1.11.3
 
-yarn add @notifee/react-native
+
+echo 'export PATH="/usr/local/opt/mongodb-community@4.4/bin:$PATH"' >> ~/.zshrc
+
+# If you still have the old mongodb installed from homebrew-core
+brew services stop mongodb
+brew uninstall homebrew/core/mongodb
+
+# Use the migrated distribution from custom tap
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
 
 
 
